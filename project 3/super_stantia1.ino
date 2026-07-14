@@ -1,9 +1,11 @@
+// Variables
 int button = 2;
 int red = 11;
 int green = 12;
 int blue = 13;
 int delaytime = 50;
 int bright = 255;
+
 void setup()
 {
   pinMode(button, INPUT_PULLUP); // Use Arduino's internal pull-up resistor
