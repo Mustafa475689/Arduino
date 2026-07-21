@@ -33,6 +33,24 @@ void loop() {
   // LED control
   if (distance > 0 && distance <= 20) {
     digitalWrite(ledPin, HIGH);   // LED ON
+    delay(200);
+    digitalWrite(ledPin, LOW);   // LED ON
+    delay(200);
+  }  else if (distance > 0 && distance <= 30) {
+    digitalWrite(ledPin, HIGH);   // LED ON
+    delay(100);
+    digitalWrite(ledPin, LOW);   // LED ON
+    delay(100);
+  } else if (distance > 0 && distance <= 50) {
+    digitalWrite(ledPin, HIGH);   // LED ON
+    delay(80);
+    digitalWrite(ledPin, LOW);   // LED ON
+    delay(80);
+  } else if (distance > 0 && distance <= 80) {
+    digitalWrite(ledPin, HIGH);   // LED ON
+    delay(20);
+    digitalWrite(ledPin, LOW);   // LED ON
+    delay(20);
   } else {
     digitalWrite(ledPin, LOW);    // LED OFF
   }
