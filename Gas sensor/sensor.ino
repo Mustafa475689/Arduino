@@ -4,7 +4,7 @@ const int ledPin = 13;    // LED Digital Pin 13
 
 // Threshold (Limit) - Isse aap adjust kar sakte hain
 int threshold = 100;      
-
+// new commit
 void setup() {
   pinMode(ledPin, OUTPUT);
   Serial.begin(9600);     // Serial monitor par values dekhne ke liye
