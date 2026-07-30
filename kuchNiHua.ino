@@ -172,6 +172,7 @@ void loop() {
     char c = Serial.read();
     if (c == 'c' || c == 'C') {
       captureFrame();
+      // end hu gya 
     }
   }
 }
