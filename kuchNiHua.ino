@@ -19,6 +19,10 @@
 
   Trigger a capture by sending the character 'c' over Serial (115200 baud).
   Pair this with ov7670_viewer.py on the PC side.
+
+north nazimabad gymkhana 03437622045
+Sindh sports board 02199230989
+  
 */
 //waiting for arduino esp 32
 #include <Wire.h>
